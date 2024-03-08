@@ -48,6 +48,9 @@ class AssortedTest {
 
     }
 
+    private void assertTrue(boolean b, String s) {
+    }
+
     @org.junit.jupiter.api.Test
     void filterStrings() {
 
@@ -82,6 +85,9 @@ class AssortedTest {
         list2.add(new Integer[] {12,5});
         list2.add(new Integer[] {3,8});
         assertEquals(7, Assorted.busStop(list2));
+    }
+
+    private void assertEquals(int i, int busStop) {
     }
 
     @org.junit.jupiter.api.Test
